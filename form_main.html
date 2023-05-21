@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compitable" content="IE=edge">
+        <meta name="viewpoint" content="width=device-width, initail-scale=1.0">
+        <title>Form</title>
+        <link rel="stylesheet" href="./forFormat.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="heading">
+            Form of you Info
+        </div> <br>
+        <div class="form-details">
+            <form>
+                <label for="Name"> Entre Name <br>
+                    <input type="text" class="input" id="name">
+                </label> <br> <br.>
+                <label for="DOB"> Date of Birth <br>
+                    <input type="date" class="input" id="dob">
+                </label> <br> <br>
+                
+                <lable for="answer1"> Who is your favourite Marvel Charecter? <br>
+                    <input type="text" class="input" id="char_name1">
+                </lable> <br> <br>
+                <lable for="answer2"> Who is your favourite DC Charecter? <br>
+                    <input type="text" class="input" id="char_name2">
+                </lable> <br> <br>
+                
+                <div>
+                    <lable for="series"> Which series do you like the most </lable>
+                    <select name="Serier" id="SERIES">
+                        <option value="marvel"> Marvel </option>
+                        <option value="dc"> DC </option>
+                </select> <br>
+                </div> <br>
+
+                <lable for="charecter"> Your are best discribed as?</lable> <br>
+                <input type="checkbox">
+                <lable for="kind"> Kind </lable> <br>
+                <input type="checkbox">
+                <lable for="sincere"> sincere </lable> <br>
+                <input type="checkbox">
+                <lable for="brave"> Brave </lable> <br>
+                <input type="checkbox">
+                <label for="cruel"> Cruel </label> <br>
+                <input type="checkbox">
+                <lable for="impatient"> Impatient </lable> <br> <br>
+
+                <lable for="Question"> Do you have any favourite food? </lable> <br>
+                <input type="radio" id="yes" name="ans">
+                <lable for="yes"> YES
+                </lable> <br>
+                <input type="radio" id="no" name="ans">
+                <lable for="no"> NO
+                </lable> <br> <br>
+
+                <lable for="answer3"> If yes type them here (can be more than one) <br>
+                    <textarea name="text" cols="35" rows="5" class="input" id="ans"></textarea>
+                </lable> <br> <br>
+
+                <button for="submit" class="button">
+                    SUBMIT
+                </button>
+            </form>
+        </div>
+    </body>
+</html>
